@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.15.15-76051515-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-03-29T08:26:45.054007",
+    "startedAt": "2022-03-29T08:26:41.975912",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050 Ti with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "rl.py",
+    "codePath": "rl.py",
+    "host": "pop-os",
+    "username": "ludvik",
+    "executable": "/home/ludvik/anaconda3/envs/RS_SB3_test/bin/python3"
+}
