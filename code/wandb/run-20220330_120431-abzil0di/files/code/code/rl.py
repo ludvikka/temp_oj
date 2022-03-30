@@ -115,7 +115,7 @@ if __name__ == '__main__':
             ###############################################if vec
             # Create model
             from stable_baselines3.common.vec_env import VecNormalize
-            env = VecNormalize(env,norm_obs=False, norm_reward=True, norm_obs_keys=[])
+            env = VecNormalize(env)
             model = PPO(policy_type, env= env, **policy_kwargs, tensorboard_log=f"runs/{run.id}")
 
             print("Created a new model")

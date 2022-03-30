@@ -1,0 +1,22 @@
+diff --git a/code/rl_config.yaml b/code/rl_config.yaml
+index 296d579..aab6064 100644
+--- a/code/rl_config.yaml
++++ b/code/rl_config.yaml
+@@ -3,7 +3,7 @@ training: True   # Whether to train a model or not
+ 
+ # Settings for stable-baselines RL algorithm
+ sb_config:
+-  total_timesteps: 40.0e+6
++  total_timesteps: 500000
+   check_pt_interval: 1000 #1.0e+6
+   num_procs: 2
+ 
+diff --git a/code/wandb/latest-run b/code/wandb/latest-run
+index 7be0fc0..be9029e 120000
+--- a/code/wandb/latest-run
++++ b/code/wandb/latest-run
+@@ -1 +1 @@
+-run-20220329_102641-37ma5do3
+\ No newline at end of file
++run-20220330_120402-2vxvflh3
+\ No newline at end of file
